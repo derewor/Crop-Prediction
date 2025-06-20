@@ -6,4 +6,11 @@ To generate a model that predicts an appropriate crop type based on macro nutrie
 
 ## Applicability
 * This model can be used to determine which crop type would be more productive on soils with defined content of N, K, P as well as pH level.
-* The prediction can be improved by adding more parameters to the model. 
+* The prediction can be improved by adding more parameters such as soil moisture, micronutrients and temperature etc to the model. 
+
+## Tools
+googlecolab, pandas, sklearn 
+
+## Results
+* By training each feature separetly, K has the highest predicting power of 0.32 as shown from the F1 score. However, this score alone is small to predict the appropriate crop type for the soil.
+* The 
